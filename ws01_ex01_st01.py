@@ -12,6 +12,8 @@ elif opn == "/":
     result = opr1 / opr2
 elif opn == "%":
     result = opr1 % opr2
+elif opn == "^":
+    result = opr1 ** opr2
 else:
     print("Invalid operation")
 print(str(opr1) + opn + str(opr2) + " = " + str(result))
