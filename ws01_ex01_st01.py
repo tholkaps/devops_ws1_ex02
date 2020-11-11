@@ -10,6 +10,8 @@ elif opn == "x":
     result = opr1 * opr2
 elif opn == "/":
     result = opr1 / opr2
+elif opn == "%":
+    result = opr1 % opr2
 elif opn == "^":
     result = opr1 ** opr2
 else:
